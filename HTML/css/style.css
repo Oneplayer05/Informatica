@@ -1,3 +1,16 @@
 .container {
     background-color: red;
 }
+.semplice-link {color:red;}
+.semplice-link:hover{color:green;}
+.nav {height:200px;
+    background-color:#cfd11a;
+padding: 20px; display: flex;}
+.primodiv {height:50px; 
+    width:50px; 
+    display:block;
+     background-color: green;} 
+.secondodiv {height:50px; 
+    width:50px; 
+    display:block; 
+    background-color: orange; position: fixed;}
