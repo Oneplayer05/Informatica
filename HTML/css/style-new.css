@@ -3,6 +3,7 @@
 }
 .semplice-link {color:red;}
 .semplice-link:hover{color:green;}
+
 .nav {height:200px;
     background-color:#cfd11a;
 padding: 20px; display: flex;}
@@ -15,20 +16,28 @@ padding: 20px; display: flex;}
     display:block; 
     background-color: orange; position: fixed;}
 .menu-item {background-color: aqua;
-        margin-right: 5rem;
-        text-decoration:none ;padding: 0.25rem;}
-.menu {background-color: blueviolet;
-        padding: 10px; border: 0.2rem; 
+    margin-right: 5rem;
+    text-decoration:none ;padding: 0.25rem;}
+.menu {background-color: black;
+    padding: 10px; border: 0.1rem; 
     border-color: brown;
-        border-style: solid;
-        border-radius: 1rem;}
+    border-style: solid;
+    border-radius: 0.1rem;}
 .corpoDelTesto {background-color: aqua;
-    margin-right: 1rem;
-    text-decoration:none ;padding: 05.525rem;}
-.banner {background-color: orangered;
-    margin-right: 1rem;
+    margin-right: 0rem;
+    text-decoration:none ;padding:5.525rem;
+    text-align:center;
+    border: 0.2rem; 
+    border-color: brown;
+    border-style: solid;
+    border-radius: 0.1rem;}
+.banner {background-color: grey;
+    margin-right: 0rem;
     text-align: center;
     text-decoration:color-mix(in srgb-linear, violet 10, yellow 90) ;
-    padding: 0.1rem;}
+    padding: 10px; border: 0.1rem; 
+    border-color: brown;
+    border-style: solid;
+    border-radius: 0.1rem;}
 html {font-size: 16px;}
-.titolo {color:blueviolet}
+.titolo {color:blueviolet; text-shadow: 2px 2px;}
