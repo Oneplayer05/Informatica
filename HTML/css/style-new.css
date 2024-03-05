@@ -16,7 +16,7 @@ padding: 20px; display: flex;}
     display:block; 
     background-color: orange; position: fixed;}
 .menu-item {background-color: aqua;
-    margin-right: 5rem;
+    margin-right: 1rem;
     text-decoration:none ;padding: 0.25rem;}
 .menu {background-color: black;
     padding: 10px; border: 0.1rem; 
