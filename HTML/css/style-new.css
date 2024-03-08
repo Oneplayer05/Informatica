@@ -15,15 +15,15 @@ padding: 20px; display: flex;}
     width:50px; 
     display:block; 
     background-color: orange; position: fixed;}
-.menu-item {background-color: aqua;
+.menu-item {background-color: #f47521;
     margin-right: 1rem;
     text-decoration:none ;padding: 0.25rem;}
-.menu {background-color: black;
+.menu {background-color: #23252b;
     padding: 10px; border: 0.1rem; 
     border-color: brown;
     border-style: solid;
     border-radius: 0.1rem;}
-.corpoDelTesto {background-color: aqua;
+.corpoDelTesto {background-color: yellow;
     margin-right: 0rem;
     text-decoration:none ;padding:5.525rem;
     text-align:center;
@@ -31,7 +31,7 @@ padding: 20px; display: flex;}
     border-color: brown;
     border-style: solid;
     border-radius: 0.1rem;}
-.banner {background-color: grey;
+.banner {background-color: #23252b;
     margin-right: 0rem;
     text-align: center;
     text-decoration:color-mix(in srgb-linear, violet 10, yellow 90) ;
@@ -40,4 +40,4 @@ padding: 20px; display: flex;}
     border-style: solid;
     border-radius: 0.1rem;}
 html {font-size: 16px;}
-.titolo {color:blueviolet; text-shadow: 2px 2px;}
+.titolo {color:#f47521; text-shadow: 2px 2px;}

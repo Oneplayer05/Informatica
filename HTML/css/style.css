@@ -14,7 +14,7 @@ padding: 20px; display: flex;}
     width:50px; 
     display:block; 
     background-color: orange; position: fixed;}
-.menu-item {background-color: aqua;
+.menu-item {background-color: #23252b;
         margin-right: 5rem;
         text-decoration:none ;padding: 0.25rem;}
 .menu {background-color: blueviolet;
