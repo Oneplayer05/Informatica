@@ -7,10 +7,12 @@
 .nav {height:200px;
     background-color:#cfd11a;
 padding: 20px; display: flex;}
-.primodiv {height:50px; 
-    width:50px; 
-    display:block;
-     background-color: green;} 
+.primodiv {height:150px; 
+    width:250px; 
+    display:inline-block;
+    background-color: whitesmoke;
+    margin: 40px;
+   } 
 .secondodiv {height:50px; 
     width:50px; 
     display:block; 
@@ -31,7 +33,17 @@ padding: 20px; display: flex;}
     border-color: brown;
     border-style: solid;
     border-radius: 0.1rem;}
-.banner {background-color: #23252b;
+.corpoDelTestoPrimaPagina {background-color: yellow;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    text-decoration:none ;padding:6rem;
+    text-align:left;
+    border: 0.2rem; 
+    border-color: brown;
+    border-style: solid;
+    border-radius: 0.1rem;}
+
+    .banner {background-color: #23252b;
     margin-right: 0rem;
     text-align: center;
     text-decoration:color-mix(in srgb-linear, violet 10, yellow 90) ;
@@ -39,5 +51,13 @@ padding: 20px; display: flex;}
     border-color: brown;
     border-style: solid;
     border-radius: 0.1rem;}
+.video {background-color: #23252b;
+    padding: 0px; border: 0px; 
+    border-color: brown;
+    border-style: solid;
+    border-radius: 1rem;}
+.video-item {
+    margin-right: 0px;
+    text-decoration:none ;padding: 0.15px;}
 html {font-size: 16px;}
 .titolo {color:#f47521; text-shadow: 2px 2px;}
