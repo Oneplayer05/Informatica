@@ -17,7 +17,7 @@ padding: 20px; display: flex;}
     width:50px; 
     display:block; 
     background-color: orange; position: fixed;}
-.menu-item {background-color: #f47521;
+.menu-item {background-color: violet;
     margin-right: 1rem;
     text-decoration:none ;padding: 0.25rem;}
 .menu {background-color: #23252b;
@@ -25,7 +25,7 @@ padding: 20px; display: flex;}
     border-color: brown;
     border-style: solid;
     border-radius: 0.1rem;}
-.corpoDelTesto {background-color: yellow;
+.corpoDelTesto {background-color:darkorchid;
     margin-right: 0rem;
     text-decoration:none ;padding:5.525rem;
     text-align:center;
@@ -33,7 +33,7 @@ padding: 20px; display: flex;}
     border-color: brown;
     border-style: solid;
     border-radius: 0.1rem;}
-.corpoDelTestoPrimaPagina {background-color: yellow;
+.corpoDelTestoPrimaPagina {background-color: darkorchid;
     margin-right: 0rem;
     margin-left: 0rem;
     text-decoration:none ;padding:6rem;
@@ -60,4 +60,18 @@ padding: 20px; display: flex;}
     margin-right: 0px;
     text-decoration:none ;padding: 0.15px;}
 html {font-size: 16px;}
-.titolo {color:#f47521; text-shadow: 2px 2px;}
+.titolo {color:violet; text-shadow: 2px 2px;}
+select#errori {
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    height: 35px;
+  }
+  textarea {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 180px;
+    height: 70px;
+    left: 115px;
+  }
