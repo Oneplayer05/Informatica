@@ -61,17 +61,36 @@ padding: 20px; display: flex;}
     text-decoration:none ;padding: 0.15px;}
 html {font-size: 16px;}
 .titolo {color:violet; text-shadow: 2px 2px;}
-select#errori {
-    position: absolute;
-    top: 70px;
-    left: 15px;
-    height: 35px;
-  }
-  textarea {
-    position: absolute;
-    top: 70px;
-    right: 20px;
-    width: 180px;
-    height: 70px;
-    left: 115px;
-  }
+body{font-family: sans-serif; margin: 0;}
+
+.content{padding: 25px; width: 100%; box-sizing: border-box; margin: 0 auto; float: left;}
+
+#modulo{border-top: solid 4px #000; border-bottom: solid 4px #000; padding: 15px; background: darkorchid; color: #fff; overflow: auto;
+margin-top: 20px;}
+
+#modulo h1{margin: 0;}
+
+#modulo h3{margin: 15px 0 25px;}
+
+#modulo ul{list-style: none; padding: 0; margin: 0; width: 100%;}
+#modulo ul li{padding: 10px 0; width: 50%; float: left; box-sizing: border-box;}
+
+#modulo ul li.tre,#modulo ul li.quattro{float: none; clear: left; width: 100%;}
+
+#modulo ul li.uno{margin-right: 1%;}
+
+#modulo ul li.quattro{padding: 20px 0; text-align: center;}
+
+#modulo ul li label{display: block; padding-bottom: 5px; width: 50%;}
+
+#modulo ul li input{border: solid 2px #000; background: rgba(255, 255, 255, 0.2); color: #fff; float: left;}
+
+#modulo ul li.testo{padding: 10px; width: 100% ; box-sizing: border-box;}
+
+#modulo ul li textarea{padding: 10px; color: #fff; width: 100%; height: 100px; background: rgba(255, 255, 255, 0.2); border: solid 2px
+darkorchid; box-sizing: border-box;}
+
+#modulo ul li .pulsante{color: #fff; background: darkcyan; border: solid 2px darkorchid; padding: 12px 25px; text-transform: uppercase;cursor: 
+pointer; font-weight: bold; transition: 0.5s;}
+
+#modulo ul li .pulsante:hover{background:#000; color: #fff; border: solid 2px black;}
