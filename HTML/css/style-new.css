@@ -19,12 +19,21 @@ padding: 20px; display: flex;}
     background-color: orange; position: fixed;}
 .menu-item {background-color: violet;
     margin-right: 1rem;
-    text-decoration:none ;padding: 0.25rem;}
+    text-decoration:none ;
+    padding: 0.25rem;
+    }
 .menu {background-color: #23252b;
     padding: 10px; border: 0.1rem; 
     border-color: brown;
     border-style: solid;
-    border-radius: 0.1rem;}
+    border-radius: 0.1rem; 
+    display: flex ;text-align: center;
+    }
+.titolo-menu {color:violet; text-shadow: 2px 2px;
+    margin-right: 1rem;
+    padding: 0.25rem;
+    text-align: right;}
+.menu2 { text-align: right;}
 .corpoDelTesto {background-color:darkorchid;
     margin-right: 0rem;
     text-decoration:none ;padding:5.525rem;
