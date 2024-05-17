@@ -1,42 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8"/>
-    <title>Modulo contatti</title>
-    <link rel="stylesheet" href="css/style-new.css">
-    <script src="js/script.js"></script>
+<html lang="en">
+
+<head>
+  <meta name="description" content="Neptun LAB" />
+  <meta charset="utf-8">
+  <title>Neptun LAB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Alessandro Di Pasquale">
+  <link rel="stylesheet" href="css/style-new.css">
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div partial-html="partial/menu.html"></div>
+  <div class="corpoDelTesto">
   </head>
   <body>
     <section id="modulo">
       <div class="content">
-        <div partial-html="partial/menu.html"></div>
-        <div class="corpoDelTesto">
-        <h1>Serve aiuto?</h1>
-        <h3>Richiedi informazioni compilando il modulo! <br>Ti contatteremo il prima possibile</h3>
-
-        <form action="dati.php" method="post">
-          <ul>
-            <li class="uno">
-              <label for="nome">Nome</label>
-              <input type="text" name="nome" id="nome" class="testo" required>
-            </li>
-
-            <li class="due">
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" class="testo" required>
-            </li>
-
-            <li class="tre">
-              <label for="testo">Messaggio</label>
-              <textarea name="testo" id="testo"></textarea>
-            </li>
-
-            <li class="quatro">
-              <input type="submit" value="Richiedi informazioni" class="pulsante">
-            </li>
-          </ul>
-        </form>
+          <h1>Serve aiuto?</h1>
+          <h3>Richiedi informazioni compilando il modulo! <br>Ti contatteremo il prima possibile</h3>
+          <form action="dati.php" method="post">
+            <ul>
+              <li class="uno">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" class="testo" required>
+              </li>
+              <li class="due">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="testo" required>
+              </li>
+              <li class="tre">
+                <label for="testo">Messaggio</label>
+                <textarea name="testo" id="testo"></textarea>
+              </li>
+              <li class="quatro">
+                <input type="submit" value="Richiedi informazioni" class="pulsante">
+              </li>
+            </ul>
+          </form>
+        </div>
       </div>
-
     </section>
   </body>
+  </html>
