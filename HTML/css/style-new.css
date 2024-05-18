@@ -1,9 +1,12 @@
+
 .container {
     background-color: red;
 }
 .semplice-link {color:red;}
 .semplice-link:hover{color:green;}
-
+.video-grande{
+    margin-top: 80px;margin-bottom: auto;
+}
 .nav {height:200px;
     background-color:#cfd11a;
 padding: 20px; display: flex;}
@@ -23,35 +26,31 @@ padding: 20px; display: flex;}
     padding: 0.25rem;
     color: black;
     }
-.menu {background-color: #23252b;
-    padding: 10px; border: 0.1rem; 
-    border-color: brown;
-    border-style: solid;
-    border-radius: 0.1rem; 
-    display: flex ;text-align: center;
-    }
-.titolo-menu {color:whitesmoke; text-shadow: 2px 2px;
+.menu {background-color:black;
+    padding: 10px 60px;
+    display: flex ;
+    align-items: center; 
+    position: fixed;
+    right:0;
+    left:0;
+}
+.titolo-menu {color:rgba(0, 106, 255, 0.982); text-shadow: 2px 2px;
     margin-right: 1rem;
     padding: 0.25rem;
     text-align: right;}
-.menu2 { text-align: right;}
+.icon { margin-left: auto;}
 .corpoDelTesto {background-color:aquamarine;
     margin-right: 0rem;
-    text-decoration:none ;padding:5.525rem;
+    text-decoration:none ;padding-top:170px; padding-bottom:70px ;
     text-align:center;
-    border: 0.2rem; 
-    border-color: brown;
-    border-style: solid;
-    border-radius: 0.1rem;}
+  ; 
+  }
 .corpoDelTestoPrimaPagina {background-color:aquamarine;
-    margin-right: 0rem;
-    margin-left: 0rem;
-    text-decoration:none ;padding:6rem;
+    margin:0;
+    text-decoration:none ;padding-left:6rem;padding-right: 6rem;
     text-align:left;
-    border: 0.2rem; 
-    border-color: brown;
-    border-style: solid;
-    border-radius: 0.1rem;}
+        
+    }
 
     .banner {background-color: #23252b;
     margin-right: 0rem;
@@ -65,7 +64,8 @@ padding: 20px; display: flex;}
     padding: 0px; border: 0px; 
     border-color: brown;
     border-style: solid;
-    border-radius: 1rem;}
+    border-radius: 1rem;
+    margin:5px;}
 .video-item {
     margin-right: 0px;
     text-decoration:none ;padding: 0.15px;}
