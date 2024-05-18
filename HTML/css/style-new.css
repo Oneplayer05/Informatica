@@ -104,3 +104,26 @@ black; box-sizing: border-box;}
 #modulo ul li .pulsante{color: #fff; background: black; border: solid 2px darkorchid; padding: 12px 25px; text-transform: uppercase;cursor: pointer; font-weight: bold; transition: 0.5s;}
 
 #modulo ul li .pulsante:hover{background:aquamarine; color: #fff; border: solid 2px black;}
+
+<style>
+    .banner {
+    width: 100%;
+    max-width: 728px;
+    margin: 0 auto;
+    }
+ </style>
+    <div style="text-align:center; margin: 20px 0;">
+    <img class="banner" src="path/to/your/banner.jpg" alt="Banner Description">
+    </div>
+
+.banner-container {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+.banner {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
