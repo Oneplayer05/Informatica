@@ -1,51 +1,73 @@
-
 .container {
     background-color: red;
 }
 .semplice-link {color:red;}
 .semplice-link:hover{color:green;}
 .video-grande{
-  
-    margin-top: 80px;margin-bottom: auto;
+    margin-top: 80px;
+    margin-bottom: auto;
    
-    
+    }
+#preview-details{
+    position: absolute;
+    top: 300px;
+    left: 50px;
 }
-.nav {height:200px;
+h3 {
+    color: white;
+    font-size: 40px;
+    margin:15px 0 ;
+}
+button{
+    height: 50px;
+    background-color: rgb(50, 50, 50, 0.4) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 18px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    }
+.nav {
+    height:200px;
     background-color:#cfd11a;
-padding: 20px; display: flex;}
-.primodiv {height:150px; 
+    padding: 20px; 
+    display: flex;
+    }
+.primodiv {
+    height:150px; 
     width:250px; 
     display:inline-block;
     background-color: whitesmoke;
     margin: 40px;
    } 
-.secondodiv {height:50px; 
+.secondodiv {
+    height:50px; 
     width:50px; 
     display:block; 
-    background-color: orange; position: fixed;}
-    .menu-item {background-color:whitesmoke;
-        margin-right: 1rem;
-        text-decoration:none ;
-        padding: 0.25rem;
-        color: black;
-        }
-    .menu {background-color:black;
-        padding: 10px 60px;
-        display: flex ;
-        align-items: center; 
-        position: fixed;
-        right:0;
-        left:0;
-        z-index: 1;
+    background-color: orange; position: fixed;
     }
+.menu-item {
+    background-color:whitesmoke;
+    margin-right: 1rem;
+    text-decoration:none ;
+    padding: 0.25rem;
+    color: black;
+    }
+.menu {background-color:black;
+    padding: 10px 60px;
+    display: flex ;
+    align-items: center; 
+    position: fixed;
+    right:0;
+    left:0;
+    z-index: 1;
+}
 #preview-container{
     position: relative;
-}
-.corpoDelTesto {background-color:aquamarine;
-    margin-right: 0rem;
-    text-decoration:none ;padding-top:200px; padding-bottom:80px ;
-    text-align:center;
-  ; 
 }
 #preview-overlay{
     position: absolute;
@@ -53,19 +75,29 @@ padding: 20px; display: flex;}
     left:0;
     width:100%;
     height: 100%;
-    background-color: black;
-    opacity: 0.3;
+    background-color: rgb(0, 0, 0, 0.3);
+   
 }
 .titolo-menu {color:rgba(0, 106, 255, 0.982); text-shadow: 2px 2px;
     margin-right: 1rem;
     padding: 0.25rem;
     text-align: right;}
 .icon { margin-left: auto;}
-.corpoDelTestoPrimaPagina {background-color:aquamarine;
+.corpoDelTesto {
+    background-color:aquamarine;
+    margin-right: 0rem;
+    text-decoration:none ;
+    padding-top:200px; 
+    padding-bottom:80px ;
+    text-align:center;
+  }
+.corpoDelTestoPrimaPagina {
+    background-color:aquamarine;
     margin:0;
-    text-decoration:none ;padding-left:6rem;padding-right: 6rem;
-    text-align:left;
-        
+    text-decoration:none ;
+    padding-left:6rem;
+    padding-right: 6rem;
+    text-align:left;   
     }
 
     .banner {background-color: #23252b;
@@ -73,6 +105,9 @@ padding: 20px; display: flex;}
     text-align: center;
     text-decoration:color-mix(in srgb-linear, violet 10, yellow 90) ;
     padding-bottom: 20px;}
+
+
+
 .video {background-color: #23252b;
     padding: 0px; border: 0px; 
     border-color: brown;
@@ -88,7 +123,7 @@ body::-webkit-scrollbar{display: none;}
 body{font-family: sans-serif; margin: 0;
 background-color: aquamarine;
 }
-video{width:100%;}
+video {width:100%;}
 .contnet{padding: 25px; width: 100%; box-sizing: border-box; margin: 0 auto; float: left;}
 
 #modulo{padding: 15px; background:aquamarine; color: black; overflow: auto;}
@@ -121,12 +156,12 @@ black; box-sizing: border-box;}
 #modulo ul li .pulsante:hover{background:aquamarine; color: #fff; border: solid 2px black;}
 
 <style>
-   .banner {
+    .banner {
     width: 100%;
     max-width: 728px;
     margin: 0 auto;
     }
- </style>
+</style>
     <div style="text-align:center; margin: 20px 0;">
     <img class="banner" src="path/to/your/banner.jpg" alt="Banner Description">
     </div>
