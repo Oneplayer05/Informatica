@@ -23,23 +23,29 @@ padding: 20px; display: flex;}
     width:50px; 
     display:block; 
     background-color: orange; position: fixed;}
-.menu-item {background-color:whitesmoke;
-    margin-right: 1rem;
-    text-decoration:none ;
-    padding: 0.25rem;
-    color: black;
+    .menu-item {background-color:whitesmoke;
+        margin-right: 1rem;
+        text-decoration:none ;
+        padding: 0.25rem;
+        color: black;
+        }
+    .menu {background-color:black;
+        padding: 10px 60px;
+        display: flex ;
+        align-items: center; 
+        position: fixed;
+        right:0;
+        left:0;
+        z-index: 1;
     }
-.menu {background-color:black;
-    padding: 10px 60px;
-    display: flex ;
-    align-items: center; 
-    position: fixed;
-    right:0;
-    left:0;
-    z-index: 1;
-}
 #preview-container{
     position: relative;
+}
+.corpoDelTesto {background-color:aquamarine;
+    margin-right: 0rem;
+    text-decoration:none ;padding-top:200px; padding-bottom:80px ;
+    text-align:center;
+  ; 
 }
 #preview-overlay{
     position: absolute;
@@ -55,12 +61,6 @@ padding: 20px; display: flex;}
     padding: 0.25rem;
     text-align: right;}
 .icon { margin-left: auto;}
-.corpoDelTesto {background-color:aquamarine;
-    margin-right: 0rem;
-    text-decoration:none ;padding-top:200px; padding-bottom:80px ;
-    text-align:center;
-  ; 
-  }
 .corpoDelTestoPrimaPagina {background-color:aquamarine;
     margin:0;
     text-decoration:none ;padding-left:6rem;padding-right: 6rem;
@@ -121,7 +121,7 @@ black; box-sizing: border-box;}
 #modulo ul li .pulsante:hover{background:aquamarine; color: #fff; border: solid 2px black;}
 
 <style>
-    .banner {
+   .banner {
     width: 100%;
     max-width: 728px;
     margin: 0 auto;
