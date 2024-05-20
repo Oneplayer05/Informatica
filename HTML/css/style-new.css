@@ -142,3 +142,10 @@ black; box-sizing: border-box;}
         max-width: 100%;
         height: auto;
     }
+
+.heading {
+        text-align:center;
+        color: var(--red)
+        margin-botoom: 3rem
+        font: size 4rem;
+}
