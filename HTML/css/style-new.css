@@ -142,26 +142,3 @@ black; box-sizing: border-box;}
         max-width: 100%;
         height: auto;
     }
-
-.heading {
-        text-align:center;
-        color: var(--red)
-        margin-botoom: 3rem
-        font: size 4rem;
-}
-
-.anime{
-    padding:5rem;
-}
-
-.anime .box{
-    width: 299px;
-    height:168px;
-}
-
-.anime .content h3{
-    font-size: 1.7rem;
-    color: #ffffff;
-    text-transform: uppercase;
-    text-align: center;
-}
