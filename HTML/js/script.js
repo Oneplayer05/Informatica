@@ -30,3 +30,8 @@ function createPartialElements(elementsList) {
 window.onload = function() {
     createPartialElements(getPartialElements());
 }
+
+function toggleSearch() {
+    const searchContainer = document.querySelector('.search-container');
+    searchContainer.classList.toggle('active');
+}
