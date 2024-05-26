@@ -55,14 +55,15 @@
     position: fixed;
 }
 .menu-item {
-    background-color: whitesmoke;
+    background-color: transparent;
     margin-right: 1rem;
     text-decoration: none;
-    padding: 0.25rem;
-    color: black;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
 }
 .menu {
-    background-color: black;
+    background-color: transparent;
     padding: 10px 60px;
     display: flex;
     align-items: center;
@@ -94,7 +95,7 @@
     margin-left: auto;
 }
 .corpoDelTesto {
-    background-color: aquamarine;
+    background-color: transparent;
     margin-right: 0rem;
     text-decoration: none;
     padding-top: 200px;
@@ -102,7 +103,7 @@
     text-align: center;
 }
 .corpoDelTestoPrimaPagina {
-    background-color: aquamarine;
+    background-color: transparent;
     margin: 0;
     text-decoration: none;
     padding-left: 6rem;
@@ -143,7 +144,11 @@ body::-webkit-scrollbar {
 body {
     font-family: sans-serif;
     margin: 0;
-    background-color: aquamarine;
+    background-image:url('../immagini/wallpapersden.com_starry-sky-hd-dark-blue-night_1920x1080.jpg');
+    background-image: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 600px;
 }
 video {
     width: 100%;
@@ -157,8 +162,8 @@ video {
 }
 #modulo {
     padding: 15px;
-    background: aquamarine;
-    color: black;
+    background: transparent;
+    color: white;
     overflow: auto;
 }
 #modulo h1 {
@@ -201,7 +206,7 @@ video {
 #modulo ul li input {
     border: solid 2px #000;
     background: rgba(255, 255, 255, 0.2);
-    color: black;
+    color: white;
     float: left;
 }
 #modulo ul li.testo {
@@ -211,7 +216,7 @@ video {
 }
 #modulo ul li textarea {
     padding: 10px;
-    color: black;
+    color: white;
     width: 100%;
     height: 100px;
     background: rgba(255, 255, 255, 0.2);
@@ -221,7 +226,7 @@ video {
 #modulo ul li .pulsante {
     color: #fff;
     background: black;
-    border: solid 2px darkorchid;
+    border: solid 2px darkblue;
     padding: 12px 25px;
     text-transform: uppercase;
     cursor: pointer;
@@ -229,7 +234,7 @@ video {
     transition: 0.5s;
 }
 #modulo ul li .pulsante:hover {
-    background: aquamarine;
+    background: darkblue;
     color: #fff;
     border: solid 2px black;
 }
@@ -271,6 +276,7 @@ video {
     color: white;
     cursor: pointer;
     transition: color 0.3s;
+    font-size: 25px;
 }
 
 .search-icon:hover {
