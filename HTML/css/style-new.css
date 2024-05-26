@@ -8,7 +8,7 @@
     color: green;
 }
 .video-grande {
-    margin-top: 80px;
+    margin-top: 0;
     margin-bottom: auto;
 }
 #preview-details {
@@ -34,19 +34,20 @@
     background-color: white;
     color: black;
 }
-.menu-item button{
+
+.menu-item button {
     background-color: white;
     color: black;
     height: 30px;
     width: 80px;
     border-radius: 10px;
 }
-.menu-item button:hover{
-    background-color: black;
-    color:white;
 
-};
-    
+.menu-item button:hover {
+    background-color: black;
+    color: white;
+}
+
 .nav {
     height: 200px;
     background-color: #cfd11a;
@@ -93,8 +94,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     height: 100%;
+    width: 100%;
     background-color: rgb(0, 0, 0, 0.3);
 }
 .titolo-menu {
@@ -157,8 +158,8 @@ body::-webkit-scrollbar {
 body {
     font-family: sans-serif;
     margin: 0;
-    background-image:url('../immagini/wallpapersden.com_starry-sky-hd-dark-blue-night_1920x1080.jpg');
-    background-image: no-repeat;
+    background-image: url('../immagini/wallpapersden.com_starry-sky-hd-dark-blue-night_1920x1080.jpg');
+    background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
     height: 600px;
@@ -206,27 +207,32 @@ video {
 #modulo ul li.uno {
     margin-right: 1%;
 }
+
 #modulo ul li.quattro {
     padding: 20px 0;
     text-align: center;
 }
+
 #modulo ul li label {
     display: block;
     padding-bottom: 5px;
     width: 50%;
     text-align: left;
 }
+
 #modulo ul li input {
     border: solid 2px #000;
     background: rgba(255, 255, 255, 0.2);
     color: white;
     float: left;
 }
+
 #modulo ul li.testo {
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
 }
+
 #modulo ul li textarea {
     padding: 10px;
     color: white;
@@ -236,6 +242,7 @@ video {
     border: solid 2px black;
     box-sizing: border-box;
 }
+
 #modulo ul li .pulsante {
     color: #fff;
     background: black;
@@ -246,21 +253,25 @@ video {
     font-weight: bold;
     transition: 0.5s;
 }
+
 #modulo ul li .pulsante:hover {
     background: darkblue;
     color: #fff;
     border: solid 2px black;
 }
+
 .banner {
     width: 100%;
     max-width: 728px;
     margin: 0 auto;
 }
+
 .banner-container {
     width: 100%;
     text-align: center;
     margin: 20px 0;
 }
+
 .banner {
     width: 100%;
     max-width: 100%;
