@@ -34,6 +34,19 @@
     background-color: white;
     color: black;
 }
+.menu-item button{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
+.menu-item button:hover{
+    background-color: black;
+    color:white;
+
+};
+    
 .nav {
     height: 200px;
     background-color: #cfd11a;
@@ -64,7 +77,7 @@
 }
 .menu {
     background-color: transparent;
-    padding: 10px 60px;
+    padding: 0px 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
