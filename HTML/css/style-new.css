@@ -161,7 +161,8 @@ body {
     background-image: url('../immagini/wallpapersden.com_starry-sky-hd-dark-blue-night_1920x1080.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
     height: 600px;
 }
 video {
