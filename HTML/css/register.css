@@ -71,6 +71,7 @@ img {
   padding: 2.5rem 1.5rem;
   border-radius: 1rem;
   backdrop-filter: blur(8px);
+  margin-top: 67px;
 }
 .login__title {
   text-align: center;
