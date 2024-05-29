@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FULLMETAL ALCHEMIST</title>
+    <script src="js/script.js" defer></script>
     <style>
+
         body {
+          
             font-family: Arial, sans-serif;
             background-color: #f9f9f9;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: darkblue;
+            height: 30px;
             color: #fff;
             padding: 20px 0;
             text-align: center;
             margin-bottom: 20px;
         }
-        .container {
+        .container {height: 0px;
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
         .anime-video {
+            padding-top: 30px;
             margin-bottom: 20px;
             border-radius: 10px;
             overflow: hidden;
@@ -95,16 +99,21 @@
         .social-icons a:hover {
             background-color: #555;
         }
+        #titolo {
+           padding-top: 30px;
+          
+        }
     </style>
 </head>
-<body>
+<body> 
+    <div partial-html="partial/menu.html"></div>
     <header>
-        <h1>FULLMETAL ALCHEMIST</h1>
+        <h1 id="titolo">FULLMETAL ALCHEMIST</h1>
     </header>
     <div class="container">
         <div class="anime-video">
-            <video controls>
-                <source src="video/attack-on-titan-the-final-season.mp4" type="video/mp4">
+            <video controls >
+                <source src="video/Fullmetal Alchemist Brotherhood - E1 (28).mp4" type="video/mp4">
             </video>
         </div>
         <div class="anime-info">
