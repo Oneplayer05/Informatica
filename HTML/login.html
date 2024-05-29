@@ -3,16 +3,20 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+      <script src="js/script.js" ></script>
+    
       <!--=============== REMIXICONS ===============-->
       <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="css/login.css">
-
+     
       <title>Animated login form - Bedimcode</title>
    </head>
-   <body>
+   <body>  
+      <div partial-html="partial/menu.html"></div>
+      
+      
       <div class="login">
          <img src="../HTML/immagini/wallpapersden.com_starry-sky-hd-dark-blue-night_1920x1080.jpg" alt="login image" class="login__img">
 
@@ -52,7 +56,7 @@
             <button type="submit" class="login__button">Login</button>
 
             <p class="login__register">
-               Don't have an account? <a href="#">Register</a>
+               Don't have an account? <a href="register.html">Register</a>
             </p>
          </form>
       </div>
